@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tball1
+  - Tball2
+  - Tball3
+  - Tball4
+  - Tball5
+  - Tball6
+  - Tball7
+  - Tball8
+  - Tball9
+  - Tball10
+  - Tball11
+  - Tball12
+  - Tball13
+  - Tball14
+  - Tball15
+  - Tball16
+  - Tball17
+  - Tball18
+  - Tball19
+  - Tball20
+  - Tball21
+  - Tball22
+  - Tball23
+  - Tball24
+  - Tball25
+  - walls
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

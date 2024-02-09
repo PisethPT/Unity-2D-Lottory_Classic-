@@ -1,0 +1,504 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.12f1 (022dac4955a3) revision 142764'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'en' Physical Memory: 65410 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GameProject/Classi Lottory2D/Classic Lottory
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55506
+Successfully changed project path to: D:/GameProject/Classi Lottory2D/Classic Lottory
+D:/GameProject/Classi Lottory2D/Classic Lottory
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15320] Host "[IP] 10.20.0.211 [Port] 0 [Flags] 2 [Guid] 2504603211 [EditorId] 2504603211 [Version] 1048832 [Id] WindowsEditor(7,Phoenix-175) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15320] Host "[IP] 10.20.0.211 [Port] 0 [Flags] 2 [Guid] 2504603211 [EditorId] 2504603211 [Version] 1048832 [Id] WindowsEditor(7,Phoenix-175) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 13.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.12f1 (022dac4955a3)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameProject/Classi Lottory2D/Classic Lottory/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0x1287)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: D:/Unity/2022.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010604 seconds.
+- Loaded All Assemblies, in  0.521 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 429 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (296ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+				TypeCache.Initialize (217ms)
+					TypeCache.ScanAssembly (214ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (881ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (628ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GameProject\Classi Lottory2D\Classic Lottory\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GameProject\Classi Lottory2D\Classic Lottory\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.058 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (327ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (730ms)
+			LoadAssemblies (382ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (444ms)
+				TypeCache.Initialize (405ms)
+					TypeCache.ScanAssembly (397ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (254.7 KB). Loaded Objects now: 4412.
+Memory consumption went from 132.1 MB to 131.9 MB.
+Total: 6.647300 ms (FindLiveObjects: 0.540500 ms CreateObjectMapping: 0.250200 ms MarkObjects: 5.466300 ms  DeleteObjects: 0.388800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IAppsFlyerAndroidBridge.cs: 75b6be7eaad5ad0bc895b90dd5ca30b3 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowGitHub.cs: 96ce9cb6371d44ee75f2f22b1474d4a0 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerNativeBridge.cs: 88362ad65782fd2450c59c393a010423 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationUtils.cs: 183784d4fbd67123e8373bb4a1dfac2c -> 
+  custom:scripting/monoscript/fileName/UniWebViewSafeBrowingComponent.cs: 93a85e29162627ceceb39a86cc864ce0 -> 
+  custom:scripting/monoscript/fileName/XoSoMainScripts.cs: 22faa248592a3bb603ab663efe4546a4 -> 
+  custom:scripting/monoscript/fileName/XoSoUserPrefStore.cs: a4b1dd059ae9e9faeb0c8e92ca5499ff -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AppsFlyer.cs: efdd64db9c01426d9f40275d595cabbc -> 
+  custom:scripting/monoscript/fileName/AFInAppEvents.cs: 46497aa0b30a174a8390645a8e61886e -> 
+  custom:scripting/monoscript/fileName/AppsFlyerObjectEditor.cs: 168350bcd1bd07c1e3f952ad6e44a999 -> 
+  custom:scripting/monoscript/fileName/UniWebViewMessage.cs: f73473db03b190ec9bebeeebebd82b6c -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowDiscord.cs: 62143673f55e9e5f8eb17e7ebb8a2a1c -> 
+  custom:scripting/monoscript/fileName/XoSoAFController.cs: 3ec4bc2aaf70252c1185a2e797ccc99b -> 
+  custom:scripting/monoscript/fileName/GradleProperty.cs: 0590c2e44c7c1099f1ddf307a1cb28e5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowCustomize.cs: c1ff68be7a7f6523ab734b7b52bc1aa0 -> 
+  custom:scripting/monoscript/fileName/UniWebViewEditorSettings.cs: 45ccc91a43b6042183c79aea6d7539b5 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAndroidStaticListener.cs: 431b74929baeb51f142502804227237f -> 
+  custom:scripting/monoscript/fileName/UniWebViewEmbeddedToolbar.cs: e0d13fcf62b465f1a8794d6c586778e3 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowFacebook.cs: 3b745fcc36830a54f0dd8caf93838c6c -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowLine.cs: e80c4492c1f1b87fcfaa9e0b6ed4270e -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowTwitter.cs: 51f8acf5b43a508f251b45377082c41f -> 
+  custom:scripting/monoscript/fileName/AndroidManifest.cs: a52c6e0c345773020ccfd042d1b85c60 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/UniWebViewPlaceholder.cs: 17d70f03d6fc7c1d1f5df13047022f89 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerConversionData.cs: 08e190fd02cdbd4b102c687220732ed5 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerUserInvite.cs: 777deda0df3ccdebac36c0f9d34651e0 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerIOSBridge.cs: ed125593daf3c4c06f4d4eb98bd288e0 -> 
+  custom:scripting/monoscript/fileName/UniWebViewNativeListener.cs: 55b6f3cd6fe9b08489a5d356c54beeae -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlow.cs: 34496f52717a14b8a4208c1d3f805be4 -> 
+  custom:scripting/monoscript/fileName/XoSoWebViewer.cs: 18a054a9fa01d81d1b8fc8bbe8b0e8a8 -> 
+  custom:scripting/monoscript/fileName/UniWebViewPostBuildProcessor.cs: b96bb8fc57918e9dae90325063a74281 -> 
+  custom:scripting/monoscript/fileName/AppsFlyerAndroid.cs: 8670afa18b65eb2b1c2d018e11f99ff7 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerValidateReceipt.cs: e53aae2edbbc8ee17debdcb9a5598f92 -> 
+  custom:scripting/monoscript/fileName/UniWebViewSafeBrowsing.cs: f54586d5a54abee789967783850d6de4 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationSession.cs: 6f417c4bcc138ea478735948fbb102c9 -> 
+  custom:scripting/monoscript/fileName/AppsFlyerEventArgs.cs: 1ddef897d6415e1016fda1e5236e7862 -> 
+  custom:scripting/monoscript/fileName/UniWebViewLogger.cs: 1c1a68247c9a88b191d5200c001c2f8b -> 
+  custom:scripting/monoscript/fileName/UniWebViewHelper.cs: b71925e44c5b14868578dd9ac0ab4879 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UniWebView.cs: 0c2d751a7862a80be5ec22276cb715cf -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowGoogle.cs: ccd03134c4df22917277d6e9f17ceb3d -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationCommonFlow.cs: e719bb7304872dfb0402af202e4c980a -> 
+  custom:scripting/monoscript/fileName/BuildGradle.cs: 88198696da081e8c5a3c0e8e65f3e09c -> 
+  custom:scripting/monoscript/fileName/XoSoGameLoading.cs: 2b908a61e9fcc8735be9f6d4e70c62b3 -> 
+  custom:scripting/monoscript/fileName/Tests_Suite.cs: 8fcf61dcee771d41cdf513b4043abd24 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AFMiniJSON.cs: 70da43498200f3e75acabd0040ee3424 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationStandardToken.cs: 59a2bad61842f23241124575ff985a6a -> 
+  custom:scripting/monoscript/fileName/AppsFlyerObjectScript.cs: 74d8c5a70de1dd2683b7d87e869276ea -> 
+========================================================================
+Received Import Request.
+  Time since last request: 187359.050359 seconds.
+  path: Assets/Art/Quit.png
+  artifactKey: Guid(4be40611550f39445832e88799ea37ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Quit.png using Guid(4be40611550f39445832e88799ea37ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f113477dbed41f00eaecf7299c632f') in 0.232715 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 281.076357 seconds.
+  path: Assets/Editor/UniWebView
+  artifactKey: Guid(2f7d47054eab4674d95b672eeec44bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/UniWebView using Guid(2f7d47054eab4674d95b672eeec44bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3838d7e4a3481bd13fa4b422592aed7') in 0.001159 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097014 seconds.
+  path: Assets/Editor/UniWebView/settings.asset
+  artifactKey: Guid(a9d48a234a734ce4d9ded05f88f22ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/UniWebView/settings.asset using Guid(a9d48a234a734ce4d9ded05f88f22ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613640a2cc6149f19c7d067d18b7279c') in 0.003077 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 317.408415 seconds.
+  path: Assets/Scenes/Home Game Scene.unity
+  artifactKey: Guid(33d91954ce3b703469782b40c89c59d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home Game Scene.unity using Guid(33d91954ce3b703469782b40c89c59d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0974277f051f01f03c94e6b9228d189') in 0.001267 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GameProject\Classi Lottory2D\Classic Lottory\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GameProject\Classi Lottory2D\Classic Lottory\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.086 seconds
+Refreshing native plugins compatible for Editor in 4.65 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (356ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		LoadAllAssembliesAndSetupDomain (729ms)
+			LoadAssemblies (398ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+				TypeCache.Initialize (430ms)
+					TypeCache.ScanAssembly (421ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (554ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4421.
+Memory consumption went from 134.3 MB to 134.1 MB.
+Total: 9.430100 ms (FindLiveObjects: 0.595100 ms CreateObjectMapping: 0.335000 ms MarkObjects: 8.205500 ms  DeleteObjects: 0.293200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IAppsFlyerAndroidBridge.cs: 75b6be7eaad5ad0bc895b90dd5ca30b3 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowGitHub.cs: 96ce9cb6371d44ee75f2f22b1474d4a0 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerNativeBridge.cs: 88362ad65782fd2450c59c393a010423 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationUtils.cs: 183784d4fbd67123e8373bb4a1dfac2c -> 
+  custom:scripting/monoscript/fileName/UniWebViewSafeBrowingComponent.cs: 93a85e29162627ceceb39a86cc864ce0 -> 
+  custom:scripting/monoscript/fileName/XoSoMainScripts.cs: 22faa248592a3bb603ab663efe4546a4 -> 
+  custom:scripting/monoscript/fileName/XoSoUserPrefStore.cs: a4b1dd059ae9e9faeb0c8e92ca5499ff -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AppsFlyer.cs: efdd64db9c01426d9f40275d595cabbc -> 
+  custom:scripting/monoscript/fileName/AFInAppEvents.cs: 46497aa0b30a174a8390645a8e61886e -> 
+  custom:scripting/monoscript/fileName/AppsFlyerObjectEditor.cs: 168350bcd1bd07c1e3f952ad6e44a999 -> 
+  custom:scripting/monoscript/fileName/UniWebViewMessage.cs: f73473db03b190ec9bebeeebebd82b6c -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowDiscord.cs: 62143673f55e9e5f8eb17e7ebb8a2a1c -> 
+  custom:scripting/monoscript/fileName/XoSoAFController.cs: 3ec4bc2aaf70252c1185a2e797ccc99b -> 
+  custom:scripting/monoscript/fileName/GradleProperty.cs: 0590c2e44c7c1099f1ddf307a1cb28e5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowCustomize.cs: c1ff68be7a7f6523ab734b7b52bc1aa0 -> 
+  custom:scripting/monoscript/fileName/UniWebViewEditorSettings.cs: 45ccc91a43b6042183c79aea6d7539b5 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAndroidStaticListener.cs: 431b74929baeb51f142502804227237f -> 
+  custom:scripting/monoscript/fileName/UniWebViewEmbeddedToolbar.cs: e0d13fcf62b465f1a8794d6c586778e3 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowFacebook.cs: 3b745fcc36830a54f0dd8caf93838c6c -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowLine.cs: e80c4492c1f1b87fcfaa9e0b6ed4270e -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowTwitter.cs: 51f8acf5b43a508f251b45377082c41f -> 
+  custom:scripting/monoscript/fileName/AndroidManifest.cs: a52c6e0c345773020ccfd042d1b85c60 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/UniWebViewPlaceholder.cs: 17d70f03d6fc7c1d1f5df13047022f89 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerConversionData.cs: 08e190fd02cdbd4b102c687220732ed5 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerUserInvite.cs: 777deda0df3ccdebac36c0f9d34651e0 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerIOSBridge.cs: ed125593daf3c4c06f4d4eb98bd288e0 -> 
+  custom:scripting/monoscript/fileName/UniWebViewNativeListener.cs: 55b6f3cd6fe9b08489a5d356c54beeae -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlow.cs: 34496f52717a14b8a4208c1d3f805be4 -> 
+  custom:scripting/monoscript/fileName/XoSoWebViewer.cs: 18a054a9fa01d81d1b8fc8bbe8b0e8a8 -> 
+  custom:scripting/monoscript/fileName/UniWebViewPostBuildProcessor.cs: b96bb8fc57918e9dae90325063a74281 -> 
+  custom:scripting/monoscript/fileName/AppsFlyerAndroid.cs: 8670afa18b65eb2b1c2d018e11f99ff7 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerValidateReceipt.cs: e53aae2edbbc8ee17debdcb9a5598f92 -> 
+  custom:scripting/monoscript/fileName/UniWebViewSafeBrowsing.cs: f54586d5a54abee789967783850d6de4 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationSession.cs: 6f417c4bcc138ea478735948fbb102c9 -> 
+  custom:scripting/monoscript/fileName/AppsFlyerEventArgs.cs: 1ddef897d6415e1016fda1e5236e7862 -> 
+  custom:scripting/monoscript/fileName/UniWebViewLogger.cs: 1c1a68247c9a88b191d5200c001c2f8b -> 
+  custom:scripting/monoscript/fileName/UniWebViewHelper.cs: b71925e44c5b14868578dd9ac0ab4879 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UniWebView.cs: 0c2d751a7862a80be5ec22276cb715cf -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowGoogle.cs: ccd03134c4df22917277d6e9f17ceb3d -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationCommonFlow.cs: e719bb7304872dfb0402af202e4c980a -> 
+  custom:scripting/monoscript/fileName/BuildGradle.cs: 88198696da081e8c5a3c0e8e65f3e09c -> 
+  custom:scripting/monoscript/fileName/XoSoGameLoading.cs: 2b908a61e9fcc8735be9f6d4e70c62b3 -> 
+  custom:scripting/monoscript/fileName/Tests_Suite.cs: 8fcf61dcee771d41cdf513b4043abd24 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AFMiniJSON.cs: 70da43498200f3e75acabd0040ee3424 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationStandardToken.cs: 59a2bad61842f23241124575ff985a6a -> 
+  custom:scripting/monoscript/fileName/AppsFlyerObjectScript.cs: 74d8c5a70de1dd2683b7d87e869276ea -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2238.932895 seconds.
+  path: Assets/Art/G1/Artboard 1 (13).png
+  artifactKey: Guid(198878da9e3330c40b72f5caba6d90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/G1/Artboard 1 (13).png using Guid(198878da9e3330c40b72f5caba6d90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c63979bffabe61e44959a8b20c596a4') in 0.125827 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/G1/loading.png
+  artifactKey: Guid(23005fd10caab3f48837a5ea84b7c9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/G1/loading.png using Guid(23005fd10caab3f48837a5ea84b7c9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f571a6f5a2befd6040e8d0fef73a3e8c') in 0.085041 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/G1/play.png
+  artifactKey: Guid(049fc9a0b54ee5449a4a61a84195c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/G1/play.png using Guid(049fc9a0b54ee5449a4a61a84195c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae9e498dfe562a42c708e36b51074a0') in 0.038431 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GameProject\Classi Lottory2D\Classic Lottory\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GameProject\Classi Lottory2D\Classic Lottory\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.177 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.268 seconds
+Domain Reload Profiling:
+	ReloadAssembly (372ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		LoadAllAssembliesAndSetupDomain (804ms)
+			LoadAssemblies (440ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+				TypeCache.Initialize (475ms)
+					TypeCache.ScanAssembly (464ms)
+				ResolveRequiredComponents (9ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4426.
+Memory consumption went from 134.7 MB to 134.5 MB.
+Total: 5.971100 ms (FindLiveObjects: 0.457000 ms CreateObjectMapping: 0.246600 ms MarkObjects: 5.004300 ms  DeleteObjects: 0.262400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IAppsFlyerAndroidBridge.cs: 75b6be7eaad5ad0bc895b90dd5ca30b3 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowGitHub.cs: 96ce9cb6371d44ee75f2f22b1474d4a0 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerNativeBridge.cs: 88362ad65782fd2450c59c393a010423 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationUtils.cs: 183784d4fbd67123e8373bb4a1dfac2c -> 
+  custom:scripting/monoscript/fileName/UniWebViewSafeBrowingComponent.cs: 93a85e29162627ceceb39a86cc864ce0 -> 
+  custom:scripting/monoscript/fileName/XoSoMainScripts.cs: 22faa248592a3bb603ab663efe4546a4 -> 
+  custom:scripting/monoscript/fileName/XoSoUserPrefStore.cs: a4b1dd059ae9e9faeb0c8e92ca5499ff -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AppsFlyer.cs: efdd64db9c01426d9f40275d595cabbc -> 
+  custom:scripting/monoscript/fileName/AFInAppEvents.cs: 46497aa0b30a174a8390645a8e61886e -> 
+  custom:scripting/monoscript/fileName/AppsFlyerObjectEditor.cs: 168350bcd1bd07c1e3f952ad6e44a999 -> 
+  custom:scripting/monoscript/fileName/UniWebViewMessage.cs: f73473db03b190ec9bebeeebebd82b6c -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowDiscord.cs: 62143673f55e9e5f8eb17e7ebb8a2a1c -> 
+  custom:scripting/monoscript/fileName/XoSoAFController.cs: 3ec4bc2aaf70252c1185a2e797ccc99b -> 
+  custom:scripting/monoscript/fileName/GradleProperty.cs: 0590c2e44c7c1099f1ddf307a1cb28e5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowCustomize.cs: c1ff68be7a7f6523ab734b7b52bc1aa0 -> 
+  custom:scripting/monoscript/fileName/UniWebViewEditorSettings.cs: 45ccc91a43b6042183c79aea6d7539b5 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAndroidStaticListener.cs: 431b74929baeb51f142502804227237f -> 
+  custom:scripting/monoscript/fileName/UniWebViewEmbeddedToolbar.cs: e0d13fcf62b465f1a8794d6c586778e3 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowFacebook.cs: 3b745fcc36830a54f0dd8caf93838c6c -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowLine.cs: e80c4492c1f1b87fcfaa9e0b6ed4270e -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowTwitter.cs: 51f8acf5b43a508f251b45377082c41f -> 
+  custom:scripting/monoscript/fileName/AndroidManifest.cs: a52c6e0c345773020ccfd042d1b85c60 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/UniWebViewPlaceholder.cs: 17d70f03d6fc7c1d1f5df13047022f89 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerConversionData.cs: 08e190fd02cdbd4b102c687220732ed5 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerUserInvite.cs: 777deda0df3ccdebac36c0f9d34651e0 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerIOSBridge.cs: ed125593daf3c4c06f4d4eb98bd288e0 -> 
+  custom:scripting/monoscript/fileName/UniWebViewNativeListener.cs: 55b6f3cd6fe9b08489a5d356c54beeae -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlow.cs: 34496f52717a14b8a4208c1d3f805be4 -> 
+  custom:scripting/monoscript/fileName/XoSoWebViewer.cs: 18a054a9fa01d81d1b8fc8bbe8b0e8a8 -> 
+  custom:scripting/monoscript/fileName/UniWebViewPostBuildProcessor.cs: b96bb8fc57918e9dae90325063a74281 -> 
+  custom:scripting/monoscript/fileName/AppsFlyerAndroid.cs: 8670afa18b65eb2b1c2d018e11f99ff7 -> 
+  custom:scripting/monoscript/fileName/IAppsFlyerValidateReceipt.cs: e53aae2edbbc8ee17debdcb9a5598f92 -> 
+  custom:scripting/monoscript/fileName/UniWebViewSafeBrowsing.cs: f54586d5a54abee789967783850d6de4 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationSession.cs: 6f417c4bcc138ea478735948fbb102c9 -> 
+  custom:scripting/monoscript/fileName/AppsFlyerEventArgs.cs: 1ddef897d6415e1016fda1e5236e7862 -> 
+  custom:scripting/monoscript/fileName/UniWebViewLogger.cs: 1c1a68247c9a88b191d5200c001c2f8b -> 
+  custom:scripting/monoscript/fileName/UniWebViewHelper.cs: b71925e44c5b14868578dd9ac0ab4879 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UniWebView.cs: 0c2d751a7862a80be5ec22276cb715cf -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationFlowGoogle.cs: ccd03134c4df22917277d6e9f17ceb3d -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationCommonFlow.cs: e719bb7304872dfb0402af202e4c980a -> 
+  custom:scripting/monoscript/fileName/BuildGradle.cs: 88198696da081e8c5a3c0e8e65f3e09c -> 
+  custom:scripting/monoscript/fileName/XoSoGameLoading.cs: 2b908a61e9fcc8735be9f6d4e70c62b3 -> 
+  custom:scripting/monoscript/fileName/Tests_Suite.cs: 8fcf61dcee771d41cdf513b4043abd24 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AFMiniJSON.cs: 70da43498200f3e75acabd0040ee3424 -> 
+  custom:scripting/monoscript/fileName/UniWebViewAuthenticationStandardToken.cs: 59a2bad61842f23241124575ff985a6a -> 
+  custom:scripting/monoscript/fileName/AppsFlyerObjectScript.cs: 74d8c5a70de1dd2683b7d87e869276ea -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

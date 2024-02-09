@@ -1,0 +1,75 @@
+trackSelection = true
+refreshSearchWindowsInPlayMode = false
+fetchPreview = true
+defaultFlags = 0
+keepOpen = false
+queryFolder = "Assets"
+onBoardingDoNotAskAgain = true
+showPackageIndexes = false
+showStatusBar = false
+scopes = {
+	"last_search.310DEAF1" = "Lavish Polygon Collider 2D Editor"
+	"OpenInspectorPreview.310DEAF1" = "0"
+	"currentGroup.310DEAF1" = "all"
+}
+providers = {
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	asset = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	store = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	find = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	log = {
+		active = false
+		priority = 210
+		defaultAction = null
+	}
+	packages = {
+		active = true
+		priority = 90
+		defaultAction = null
+	}
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	scene = {
+		active = true
+		priority = 50
+		defaultAction = null
+	}
+}
+objectSelectors = {
+}
+recentSearches = [
+	" Lavish Polygon Collider 2D Editor"
+	" Overview Package Content Releases Reviews Publisher info Asset Quality Lavish Polygon Editor is a set of tools for Polygon Collider 2D that override the default tools to bring you much more flexible and advanced ways to edit your collider polygons. Render pipeline compatibility The Built-in Render Pipeline is Unity’s default render pipeline. It is a general-purpose render pipeline that has limited options for customization. The Universal Render Pipeline (URP) is a Scriptable Render Pipeline that is quick and easy to customize, and lets you create optimized graphics across a wide range of platforms. The High Definition Render Pipeline (HDRP) is a Scriptable Render Pipeline that lets you create cutting-edge, high-fidelity graphics on high-end platforms. Unity Version Built-in URP HDRP 2020.3.12f1 Compatible Compatible Compatible Description Lavish Polygon Editor is a set of tools for Polygon Collider 2D that override the default tools to bring you much more flexible and advanced ways to edit your collider polygons.   Support Discord - Twitter - Website - Forum   This asset has been at minimum tested on Unity 2020.3.12f1 and on Unity 2021.1.2f1, on Windows and Linux.   Features:  • Advanced collider point editing functionality:  ↳ Hold shift to select multiple points.  ↳ Move multiple points at a time.  ↳ Delete multiple points at a time.  ↳ Box (de-)select points.  ↳ Double-click a point to select all connected points.  ↳ Add points to edges.  ↳ Create new point loops and holes.  ↳ Hold Shift to snap to an 0.1 unit grid.   • Interactive boolean tools:  ↳ The \"Knife\" tool lets you easily chop a polygon into multiple parts.  ↳ The \"Brush\" tool lets you add/remove regions of a collider by painting.   • Interactive collider polygon simplification algorithm:  ↳ Adjust how many points to remove.  ↳ Adjust the preference for removing points from straight lines/short edges.  ↳ Simplify a specific selection of the points in a collider polygon.   • Flip the polygon on the X or Y axis.  • Reset the collider to the SpriteRenderer's physics shape.  • Apply your collider polygon to the Sprite asset's physics shape.  • Move the position of the GameObject without moving the points of the polygon in world space.  • Very optimised, works well with large numbers of points.  • Documentation available right in the inspector.  Technical details                         Related keywords Inspector Physics 2D Polygon Tool Report this asset Lavish Polygon Collider 2D Editor"
+]
+searchItemFavorites = [
+]
+savedSearchesSortOrder = 0
+showSavedSearchPanel = false
+hideTabs = false
+expandedQueries = [
+]
+queryBuilder = false
+ignoredProperties = "id;name;classname;imagecontentshash"
+helperWidgetCurrentArea = "all"
+disabledIndexers = ""
+minIndexVariations = 2
+findProviderIndexHelper = true
